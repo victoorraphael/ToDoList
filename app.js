@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-let items = [];
+let items = ["Comprar Comida", "Cozinhar"];
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public")); // static files like css, some js ...
